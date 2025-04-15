@@ -11,3 +11,4 @@ function goUp() {
 document.getElementById("toTop").onclick = function goUp() {
   window.scrollTo({top: 0, behavior: 'smooth'});
 };
+
