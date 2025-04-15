@@ -162,13 +162,14 @@ p {
 
 #toTop {
   position: fixed;
-  bottom: 10px;
-  right: 10px;
+  bottom: 0px;
+  right: 0px;
   background-color: #D3D3D3;
   color: white;
   border: none;
   padding: 15px;
   z-index: 999;
+  font-size: 14px;
 }
 
 #toTop:hover {
@@ -176,4 +177,14 @@ p {
 }
 
 #darkMode {
+  position: fixed;
+  top: 70px;
+  right: 0px;
+  background-color: #D3D3D3;
+  color: white;
+  border: none;
+  padding: 15px;
+  z-index: 1001;
+  font-size: 14px;
 }
+
