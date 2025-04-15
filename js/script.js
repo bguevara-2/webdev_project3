@@ -12,3 +12,6 @@ document.getElementById("toTop").onclick = function goUp() {
   window.scrollTo({top: 0, behavior: 'smooth'});
 };
 
+document.getElementById("darkMode").addEventListener("click", function() {
+  document.body.classList.toggle();
+});
