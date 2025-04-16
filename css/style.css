@@ -176,7 +176,7 @@ p {
   background-color: #555;
 }
 
-#darkMode {
+#toggleColor {
   position: fixed;
   top: 70px;
   right: 0px;
@@ -188,6 +188,28 @@ p {
   font-size: 14px;
 }
 
-.dark-mode {
+#toggleColor:hover {
+  background-color: #555;
 }
 
+.dark-mode {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.dark-mode a {
+  color: #ffcccb;
+}
+
+.dark-mode #main-nav {
+  background-color: #222;
+}
+
+.dark-mode #toggleColor {
+  background-color: #f0f0f0;
+  color: #121212;
+}
+
+.dark-mode #content-wrapper {
+  color: #D3D3D3;
+}
