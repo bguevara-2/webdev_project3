@@ -206,9 +206,15 @@ p {
 }
 
 .dark-mode #toggleColor {
-  background-color: #f0f0f0;
-  color: #121212;
+  background-color: #222;
+  color: white;
 }
+
+.dark-mode #toggleColor:hover {
+  background-color: white;
+  color: #222;
+}
+
 
 .dark-mode #content-wrapper {
   color: #D3D3D3;
@@ -220,6 +226,7 @@ p {
 
 .dark-mode #resume h2 {
   color: #D3D3D3;
+  border-bottom: 2px solid #D3D3D3;
 }
 
 .dark-mode #resume h3 {
@@ -232,4 +239,13 @@ p {
 
 .dark-mode #resume li {
   color: #D3D3D3;
+}
+
+.dark-mode #toTop {
+  background-color: #222;
+  color: white;
+}
+.dark-mode #toTop:hover {
+  background-color: white;
+  color: #222
 }
