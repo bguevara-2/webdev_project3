@@ -213,3 +213,23 @@ p {
 .dark-mode #content-wrapper {
   color: #D3D3D3;
 }
+
+.dark-mode #resume h1 {
+  color: #D3D3D3;
+}
+
+.dark-mode #resume h2 {
+  color: #D3D3D3;
+}
+
+.dark-mode #resume h3 {
+  color: #D3D3D3;
+}
+
+.dark-mode #resume p {
+  color: #D3D3D3;
+}
+
+.dark-mode #resume li {
+  color: #D3D3D3;
+}
