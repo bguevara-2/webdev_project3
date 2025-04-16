@@ -270,3 +270,16 @@ p {
     top: 120px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  body {
+    font-size: 14px;
+  }
+   
+  #main-nav ul {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+}
+
