@@ -15,3 +15,9 @@ document.getElementById("toTop").onclick = function goUp() {
 document.getElementById("toggleColor").addEventListener("click", function() {
   document.body.classList.toggle("dark-mode");
 });
+
+const map = new google.maps.Map(document.getElementById("map"), {
+  zoom: 12,
+  center: center,
+  mapTypeID: "roadmap",
+});
