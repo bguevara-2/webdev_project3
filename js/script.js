@@ -21,3 +21,26 @@ const map = new google.maps.Map(document.getElementById("map"), {
   center: center,
   mapTypeID: "roadmap",
 });
+
+const landmarks = [
+  {
+    position: {},
+    title: "",
+    info: ""
+  },
+  {
+    position: {},
+    title: "",
+    info: ""
+  },
+  {
+    position: {},
+    title: "",
+    info: ""
+  },
+  {
+    position: {},
+    title: "",
+    info: ""
+  },
+];
