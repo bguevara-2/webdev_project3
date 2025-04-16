@@ -24,7 +24,7 @@ function initMap() {
     center: center,
     mapTypeId: "roadmap",
   });
-/*
+
   const landmarks = [
     {
       position: {lat: 41.8827, lng: -87.6233},
@@ -62,5 +62,5 @@ function initMap() {
     marker.addListener("click", () => {
     infoWindow.open(map, marker);
     });
-  });*/
+  });
 }
