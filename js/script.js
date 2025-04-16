@@ -47,5 +47,10 @@ const landmarks = [
 
 landmarks.forEach (({position, title, info }) {
   const marker = new.google.maps.Marker({position, title, info });
-  const info = new.google.maps.InfoWindow();
+  const info = new.google.maps.InfoWindow({content: <h3>${title}</h3><p>${info}</p>});
+
+  marker.addListener{"click", () => {
+  info.open(map,marker);
+  });
+});
 }
