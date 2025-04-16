@@ -44,3 +44,8 @@ const landmarks = [
     info: "The University I attend!"
   },
 ];
+
+landmarks.forEach (({position, title, info }) {
+  const marker = new.google.maps.Marker({position, title, info });
+  const info = new.google.maps.InfoWindow();
+}
