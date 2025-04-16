@@ -24,23 +24,23 @@ const map = new google.maps.Map(document.getElementById("map"), {
 
 const landmarks = [
   {
-    position: {},
-    title: "",
-    info: ""
+    position: {lat: 41.8827, lng: -87.6233},
+    title: "The Bean",
+    info: "One of Chicago's most iconic sculptures, touristy area."
   },
   {
-    position: {},
-    title: "",
-    info: ""
+    position: {lat: 41.8789, lng: -87.6359},
+    title: "Willis Tower",
+    info: "Was known as 'The Sears Tower', and also was once the tallest building in the world."
   },
   {
-    position: {},
-    title: "",
-    info: ""
+    position: {lat: 41.8917, lng: -87.6078 },
+    title: "Navy Pier",
+    info: "A popular area with a ferris wheel, food, and many things to entertain oneself."
   },
   {
-    position: {},
-    title: "",
-    info: ""
+    position: {lat: 41.8349, lng: -87.627},
+    title: "Illinois Tech",
+    info: "The University I attend!"
   },
 ];
