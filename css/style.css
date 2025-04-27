@@ -45,9 +45,8 @@ body {
 }
 
 #content-wrapper {
-  width: 960px;
-  margin: 80px auto 0 auto; 
-  border-radius: 2px; 
+  width: 90%;
+  margin-top: 100px;  
 }
 
 #background h3 {
@@ -250,15 +249,16 @@ p {
   color: #222
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 769px) {
   #main-nav ul {
     flex-direction: column;
     width: 100%;
   }
   
   #content-wrapper,#resume {
-    width: 90%;
-    margin-top: 100px;
+    width: 960px;
+    margin: 80px auto 0 auto;
+    border-radius: 2px;
   }
 
   .movie-container {
